@@ -53,3 +53,45 @@ nav a:hover {
   color: #6a737d;
   font-size: 0.9em;
 }
+
+/* Hero Banner */
+.hero {
+  background: #f6f8fa;
+  padding: 30px 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 30px;
+  border: 1px solid #e1e4e8;
+}
+
+.hero h2 {
+  margin-top: 0;
+  color: #0366d6;
+}
+
+/* Highlights Grid */
+.highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.card {
+  border: 1px solid #e1e4e8;
+  padding: 15px;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.card h3 {
+  margin-top: 0;
+  font-size: 1.1em;
+  color: #24292e;
+}
+
+.card p {
+  margin: 0;
+  font-size: 0.95em;
+  color: #586069;
+}
