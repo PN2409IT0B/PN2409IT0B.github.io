@@ -11,7 +11,7 @@ title: Home
 <div class="highlights">
   <div class="card">
     <h3>🎓 Education</h3>
-    <p>Pre-Nursing Major at UNHP (Class of 2030)</p>
+    <p>Pre-Nursing Major at University of Memphis (Class of 2030)</p>
   </div>
   <div class="card">
     <h3>🎯 Target Career</h3>
