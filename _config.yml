@@ -1,1 +1,11 @@
+title: Parthiv Varma Nandigam
+description: Personal Blog Page
 
+# Tells Jekyll to automatically show navigation tabs for these pages
+header_pages:
+  - index.md
+  - about.md
+  - posts.md
+
+# Enables styling theme
+theme: minima
