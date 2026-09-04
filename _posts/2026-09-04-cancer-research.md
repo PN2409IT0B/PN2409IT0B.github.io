@@ -5,7 +5,7 @@ date: 2026-09-04
 categories: [Cancer Research]
 ---
 
-# Cancer Research Project
+# Cancer Research Project Template
 
 ## Research Question
 
