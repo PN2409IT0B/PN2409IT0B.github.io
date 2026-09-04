@@ -11,11 +11,11 @@ title: Home
 <div class="highlights">
   <div class="card">
     <h3>🎓 Education</h3>
-    <p>Pre-Nursing Major with a Minor in Public Health Informatics at The University of Memphis (Class of 2030)</p>
+    <p>Pre-Nursing Major with a Minor in Public Health Informatics at The University of Memphis</p>
   </div>
   <div class="card">
     <h3>🎯 Target Career</h3>
-    <p>Certified Registered Nurse Anesthetist (CRNA)</p>
+    <p>I would like to become a Certified Registered Nurse Anesthetist (CRNA)</p>
   </div>
   <div class="card">
     <h3>💻 Current Focus</h3>
