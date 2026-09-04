@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cancer Research Project"
+title: "Cancer Research Project Template"
 date: 2026-09-04
 categories: [Cancer Research]
 ---
