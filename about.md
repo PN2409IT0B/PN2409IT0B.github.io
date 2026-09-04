@@ -6,15 +6,16 @@ permalink: /about.html
 
 ### Introduction
 * **Name:** Parthiv Varma Nandigam
-* **Major:** Pre-Nursing
+* **Major:** Pre-Nursing with a Minor in Public Health Informatics
 * **Expected Graduation Year:** May, 2030
 
 ### Life Goals
-My goal is to become a Certified Registered Nurse Anesthetist (CRNA) and to learn and do as much as possible.
+1. My goal is to become a Certified Registered Nurse Anesthetist (CRNA) and to learn and do as much as possible.
+2. Have fun.
 
 ### Hobbies & Favorite Games
-* **Hobbies:** I love to play pickleball, listen to music like rap or k-pop, and bake.
-* **Games I Play:** I rarely play games but I used to play Fortnite and Roblox.
+* **Hobbies:** I love to play pickleball, listen to music, and bake.
+* **Games I Play:** I play Fortnite and Roblox occasionally with my friends.
 
 ### Favorite College Subject
-My current favorite college subject is AI in Bio UNHP course, as thanks to this course I can learn to research and make a blog.
+My current favorite college subject is AI in Bio UNHP course, as it has taught me how to make this blog and start my passion to go into the research and data side of healthcare.
