@@ -271,9 +271,7 @@ The first part of this project asks a simple question:
 <div class="stat-card">
 <span class="stat-number">[67,530]</span>
 <span class="stat-title">New Cases</span>
-<span class="stat-source">Source: <a href="https://seer.cancer.gov/statfacts/html/pancreas.html"
-target="_blank">[2]</a>
-</div>
+<span class="stat-source">Source: <a href="https://seer.cancer.gov/statfacts/html/pancreas.html" target="_blank">[2]</a>
 
 <div class="stat-card">
 <span class="stat-number">[XX,XXX]</span>
