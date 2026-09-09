@@ -275,8 +275,6 @@ The first part of this project asks a simple question:
 </div>
 
 <div class="stat-card">
-
-<div class="stat-card">
 <span class="stat-number">[XX,XXX]</span>
 <span class="stat-title">Deaths</span>
 <span class="stat-source">Source: [NCI / SEER / GLOBOCAN]</span>
