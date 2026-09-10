@@ -230,7 +230,7 @@ tags: [pancreatic cancer, cancer biology, epidemiology, early detection, treatme
     </div>
 
     <h2>
-        Why is pancreatic cancer so frequently diagnosed at an
+        Why is pancreatic cancer frequently diagnosed at an
         advanced stage, and could earlier detection meaningfully
         improve survival?
     </h2>
@@ -271,25 +271,25 @@ The first part of this project asks a simple question:
 <div class="stat-card">
 <span class="stat-number">[67,530]</span>
 <span class="stat-title">New Cases</span>
-<span class="stat-source">Source: <a href="https://seer.cancer.gov/statfacts/html/pancreas.html" target="_blank">SEER [2]</a></span>
+<span class="stat-source">Source: <a href="https://seer.cancer.gov/statfacts/html/pancreas.html" target="_blank">Surveillance, Epidemiology, and End Results Program (SEER) [2]</a></span>
 </div>
 
 <div class="stat-card">
-<span class="stat-number">[XX,XXX]</span>
+<span class="stat-number">[52,740]</span>
 <span class="stat-title">Deaths</span>
-<span class="stat-source">Source: [NCI / SEER / GLOBOCAN]</span>
+<span class="stat-source">Source: <a href="https://seer.cancer.gov/statfacts/html/pancreas.html" target="_blank">Surveillance, Epidemiology, and End Results Program (SEER) [2]</a></span>
 </div>
 
 <div class="stat-card">
-<span class="stat-number">[XX%]</span>
-<span class="stat-title">5-Year Relative Survival</span>
-<span class="stat-source">Source: [SEER]</span>
+<span class="stat-number">[13.7%]</span>
+<span class="stat-title">5-Year Relative Survival (2016 - 2022)</span>
+<span class="stat-source">Source: <a href="https://seer.cancer.gov/statfacts/html/pancreas.html" target="_blank">Surveillance, Epidemiology, and End Results Program (SEER) [2]</a></span>
 </div>
 
 <div class="stat-card">
-<span class="stat-number">[XX%]</span>
+<span class="stat-number">[~90%]</span>
 <span class="stat-title">Diagnosed at Advanced Stage</span>
-<span class="stat-source">Source: [SEER / NCI]</span>
+<span class="stat-source">Source: <a href="https://www.ox.ac.uk/news/2022-11-01-pancreatic-cancer-could-be-diagnosed-three-years-earlier" target="_blank">University of Oxford, Pancreatic Cancer Action, and University of Surrey [4]</a></span>
 </div>
 
 </div>
@@ -900,9 +900,9 @@ provided where required.
    *Global Cancer Observatory: Pancreas.*  
    https://gco.iarc.who.int/
 
-4. National Cancer Institute.  
-   *The Cancer Genome Atlas: Pancreatic Ductal Adenocarcinoma.*  
-   https://www.cancer.gov/ccg/research/genome-sequencing/tcga/studied-cancers/pancreatic-ductal-adenocarcinoma-study
+4. University of Oxford, Pancreatic Cancer Action, and University of Surrey
+   *Pancreatic cancer could be diagnosed up to three years earlier.*  
+   https://www.ox.ac.uk/news/2022-11-01-pancreatic-cancer-could-be-diagnosed-three-years-earlier
 
 5. [ADD SOURCE HERE]
 
