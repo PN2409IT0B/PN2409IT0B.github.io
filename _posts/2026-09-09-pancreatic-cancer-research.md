@@ -264,7 +264,7 @@ mortality**.
 
 The first part of this project asks a simple question:
 
-> **How large is the problem?**
+**How large is the problem?**
 
 <div class="stat-grid">
 
