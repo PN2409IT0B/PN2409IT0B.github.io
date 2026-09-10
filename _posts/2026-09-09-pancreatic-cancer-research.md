@@ -867,6 +867,40 @@ Potential Survival Improvement
 
 ---
 
+## Artificial Intelligence Use
+
+Artificial intelligence tools were used as supplementary tools during
+the development of this project. AI assistance was primarily used to
+help organize ideas, structure the research website, troubleshoot and
+develop website code, improve the visual presentation of the site, and
+identify possible directions for further research.
+
+AI was not treated as a primary scientific or medical source. Claims,
+statistics, scientific findings, and conclusions presented in this
+project were reviewed against the original cited sources, including
+government agencies, international cancer organizations, peer-reviewed
+research, and publicly available cancer datasets.
+
+The final selection of sources, interpretation of scientific evidence,
+data analysis, visualizations, conclusions, and written content remain
+the responsibility of the author. AI-generated suggestions were
+reviewed, edited, accepted, or rejected by the author rather than being
+used automatically.
+
+When AI assistance was used for programming, the resulting code was
+reviewed and modified by the author to ensure that it performed the
+intended analysis or website function.
+
+The purpose of using AI was to reduce the time required for
+organization, coding, troubleshooting, and presentation so that more
+time could be devoted to researching, evaluating, and understanding
+the scientific evidence.
+
+AI assistance was used to support the research and development process,
+not to replace the author's evaluation of the evidence.
+
+---
+
 ## Source and Citation Statement
 
 This project uses information from government agencies,
@@ -909,3 +943,4 @@ provided where required.
 6. [ADD SOURCE HERE]
 
 7. [ADD SOURCE HERE]
+
