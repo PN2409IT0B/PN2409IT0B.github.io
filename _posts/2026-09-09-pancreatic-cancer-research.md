@@ -361,9 +361,9 @@ by incidence alone might suggest.
 
 ## Figure 3 — Mortality Compared With Other Major Cancers
 
-![Cancer mortality comparison](../figures/mortality_over_time.png)
+![Cancer mortality comparison](../figures/top_10_mortality_vs_pancreas.png)
 
-**Source:** [SEER / IARC / WHO]
+**Source:** National Cancer Institute, SEER. [2]
 
 **Analysis and visualization:** Author using Python/Jupyter Notebook.
 
