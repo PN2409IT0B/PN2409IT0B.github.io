@@ -295,58 +295,136 @@ The first part of this project asks a simple question:
 </div>
 
 
-## Incidence
+# Incidence
 
-<span class="placeholder">
-Describe how frequently pancreatic cancer occurs in the population.
-Compare current incidence with previous decades and explain whether
-incidence is increasing, decreasing, or relatively stable.
-</span>
+Incidence describes the number of new pancreatic cancer diagnoses
+occurring within a population during a specific period.
 
+In the United States, the current age-adjusted incidence rate for
+pancreatic cancer is **13.9 new cases per 100,000 people per year**,
+based on cases diagnosed during **2019–2023**. [2]
 
-## Mortality
+This rate provides a population-level measure of how frequently
+pancreatic cancer occurs. However, one current rate does not reveal
+whether the disease is becoming more or less common. To investigate
+that question, I will compare pancreatic cancer incidence across
+multiple decades.
 
-<span class="placeholder">
-Describe how many patients die from pancreatic cancer and compare
-the mortality burden with other major cancers.
-</span>
+## Questions
 
+- Has pancreatic cancer incidence changed over time?
+- Does the trend differ by age?
+- Does incidence differ between males and females?
+- Are there differences among racial and ethnic groups?
+- Are there geographic differences?
 
-## Incidence vs. Mortality
+## Figure 1 — Pancreatic Cancer Incidence Over Time
 
-<span class="placeholder">
-This is where I will investigate whether pancreatic cancer has an
-unusually high mortality burden relative to the number of people
-diagnosed.
-</span>
+![Pancreatic cancer incidence](../figures/incidence_over_time.png)
 
+**Source:** National Cancer Institute, SEER. [2]
 
-<div class="figure-placeholder">
+**Analysis and visualization:** Author using Python/Jupyter Notebook.
 
-<div>
-<strong>FIGURE 1 — PANCREATIC CANCER INCIDENCE OVER TIME</strong>
+## What Does the Trend Show?
 
-Jupyter-generated graph will go here.
-
-Example:
-Year → incidence rate per 100,000 people
-</div>
-
-</div>
+[Write this after completing the Jupyter analysis.]
 
 
-<div class="figure-placeholder">
+# Mortality
 
-<div>
-<strong>FIGURE 2 — PANCREATIC CANCER MORTALITY OVER TIME</strong>
+Mortality describes deaths attributed to pancreatic cancer within
+a population.
 
-Jupyter-generated graph will go here.
+The current age-adjusted mortality rate for pancreatic cancer is
+**11.3 deaths per 100,000 people per year**, based on deaths recorded
+during **2020–2024**. [2]
 
-Example:
-Year → mortality rate per 100,000 people
-</div>
+The mortality rate is particularly important in this project because
+pancreatic cancer has a much larger mortality burden than its ranking
+by incidence alone might suggest.
 
-</div>
+## Questions
+
+- How has pancreatic cancer mortality changed over time?
+- How does pancreatic cancer mortality compare with other cancers?
+- Which populations experience the highest mortality?
+- Does the mortality trend resemble the incidence trend?
+
+## Figure 2 — Pancreatic Cancer Mortality Over Time
+
+![Pancreatic cancer mortality](../figures/mortality_over_time.png)
+
+**Source:** National Cancer Institute, SEER. [2]
+
+**Analysis and visualization:** Author using Python/Jupyter Notebook.
+
+## Figure 3 — Mortality Compared With Other Major Cancers
+
+![Cancer mortality comparison](../figures/cancer_mortality_comparison.png)
+
+**Source:** [SEER / IARC / WHO]
+
+**Analysis and visualization:** Author using Python/Jupyter Notebook.
+
+
+# Incidence vs. Mortality
+
+Incidence and mortality describe different parts of the cancer
+burden. Incidence measures new diagnoses, while mortality measures
+deaths within a population.
+
+The current age-adjusted pancreatic cancer incidence rate is
+**13.9 per 100,000 people per year**, while the age-adjusted
+mortality rate is **11.3 per 100,000 people per year**. [2]
+
+The closeness of these population-level rates demonstrates the
+substantial mortality burden associated with pancreatic cancer.
+
+However, the ratio between these rates should **not** be interpreted
+as the percentage of diagnosed patients who die. The incidence rate
+and mortality rate are calculated from different reporting periods
+and do not describe the outcomes of the same group of patients.
+
+## Descriptive Comparison
+
+\[
+\frac{11.3}{13.9} \times 100 \approx 81.3\%
+\]
+
+The reported mortality rate is approximately 81% of the reported
+incidence rate.
+
+This is a **descriptive population-level comparison, not a
+case-fatality rate**.
+
+## Figure 4 — Incidence vs. Mortality
+
+![Incidence vs mortality](../figures/incidence_vs_mortality.png)
+
+**Source:** National Cancer Institute, SEER. [2]
+
+**Analysis and visualization:** Author using Python/Jupyter Notebook.
+
+## What Does This Suggest?
+
+The relationship between incidence and mortality raises a more
+important research question:
+
+> **Why does pancreatic cancer remain so lethal relative to the
+> number of people diagnosed?**
+
+Possible explanations include:
+
+1. Diagnosis at an advanced stage
+2. Difficulty detecting early disease
+3. Limited opportunities for curative surgery
+4. Aggressive tumor biology
+5. Metastatic disease
+6. Treatment resistance
+
+The remainder of this project investigates these possible
+explanations.
 
 
 # Who Gets Pancreatic Cancer?
