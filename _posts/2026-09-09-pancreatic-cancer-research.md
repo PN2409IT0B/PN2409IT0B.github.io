@@ -320,7 +320,7 @@ multiple decades.
 
 ## Figure 1 — Pancreatic Cancer Incidence Over Time
 
-![Pancreatic cancer incidence](/figures/incidence_over_time.png)
+<img src="/cancer research/biology/data science/2026/09/09/figures/incidence_over_time.png" alt="Pancreatic cancer incidence" width="100%">
 
 **Source:** National Cancer Institute, SEER. [2]
 
@@ -353,7 +353,7 @@ by incidence alone might suggest.
 
 ## Figure 2 — Pancreatic Cancer Mortality Over Time
 
-![Pancreatic cancer mortality](/figures/mortality_over_time.png)
+<img src="/cancer research/biology/data science/2026/09/09/figures/mortality_over_time.png" alt="Pancreatic cancer mortality" width="100%">
 
 **Source:** National Cancer Institute, SEER. [2]
 
@@ -361,7 +361,7 @@ by incidence alone might suggest.
 
 ## Figure 3 — Mortality Compared With Other Major Cancers
 
-![Cancer mortality comparison](/figures/top_10_mortality_vs_pancreas.png)
+<img src="/cancer research/biology/data science/2026/09/09/figures/top_10_mortality_vs_pancreas.png" alt="Cancer mortality comparison" width="100%">
 
 **Source:** National Cancer Institute, SEER. [2]
 
@@ -400,7 +400,7 @@ case-fatality rate**.
 
 ## Figure 4 — Incidence vs. Mortality
 
-![Incidence vs mortality](/figures/incidence_vs_mortality.png)
+<img src="/cancer research/biology/data science/2026/09/09/figures/incidence_vs_mortality.png" alt="Incidence vs mortality" width="100%">
 
 **Source:** National Cancer Institute, SEER. [2]
 
