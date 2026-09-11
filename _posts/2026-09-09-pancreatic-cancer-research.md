@@ -361,7 +361,7 @@ by incidence alone might suggest.
 
 ## Figure 3 — Mortality Compared With Other Major Cancers
 
-![Cancer mortality comparison](../figures/cancer_mortality_comparison.png)
+![Cancer mortality comparison](../figures/mortality_over_time.png)
 
 **Source:** [SEER / IARC / WHO]
 
