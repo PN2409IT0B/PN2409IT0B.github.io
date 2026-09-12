@@ -260,36 +260,71 @@ mortality**.
 
 ---
 
+<!-- =====================================================
+     THE CANCER IN NUMBERS
+===================================================== -->
+
 # The Cancer in Numbers
 
-The first part of this project asks a simple question:
+Before examining the biology, risk factors, or treatment of pancreatic
+cancer, it is important to understand the size of the problem.
 
-**How large is the problem?**
+Pancreatic cancer represents a relatively small proportion of all
+cancer diagnoses, but its mortality burden is much larger relative to
+its incidence. This makes pancreatic cancer an important disease to
+study not only in terms of how often it occurs, but also in terms of
+how frequently it results in death.
+
+The following analysis uses population-level cancer data to examine
+three related questions:
+
+1. **How frequently is pancreatic cancer diagnosed?**
+2. **How has pancreatic cancer mortality changed over time?**
+3. **How does the mortality burden compare with the number of people
+   diagnosed?**
+
+---
 
 <div class="stat-grid">
 
 <div class="stat-card">
-<span class="stat-number">[67,530]</span>
-<span class="stat-title">New Cases</span>
-<span class="stat-source">Source: <a href="https://seer.cancer.gov/statfacts/html/pancreas.html" target="_blank">Surveillance, Epidemiology, and End Results Program (SEER) [2]</a></span>
+<span class="stat-number">67,530</span>
+<span class="stat-title">Estimated New Cases</span>
+<span class="stat-source">
+Source:
+<a href="https://seer.cancer.gov/statfacts/html/pancreas.html"
+target="_blank">
+NCI SEER [2]
+</a>
+</span>
 </div>
 
 <div class="stat-card">
-<span class="stat-number">[52,740]</span>
-<span class="stat-title">Deaths</span>
-<span class="stat-source">Source: <a href="https://seer.cancer.gov/statfacts/html/pancreas.html" target="_blank">Surveillance, Epidemiology, and End Results Program (SEER) [2]</a></span>
+<span class="stat-number">52,740</span>
+<span class="stat-title">Estimated Deaths</span>
+<span class="stat-source">
+Source:
+<a href="https://seer.cancer.gov/statfacts/html/pancreas.html"
+target="_blank">
+NCI SEER [2]
+</a>
+</span>
 </div>
 
 <div class="stat-card">
-<span class="stat-number">[13.7%]</span>
-<span class="stat-title">5-Year Relative Survival (2016 - 2022)</span>
-<span class="stat-source">Source: <a href="https://seer.cancer.gov/statfacts/html/pancreas.html" target="_blank">Surveillance, Epidemiology, and End Results Program (SEER) [2]</a></span>
+<span class="stat-number">13.7%</span>
+<span class="stat-title">5-Year Relative Survival</span>
+<span class="stat-source">
+2016–2022 · NCI SEER [2]
+</span>
 </div>
 
 <div class="stat-card">
-<span class="stat-number">[~90%]</span>
-<span class="stat-title">Diagnosed at Advanced Stage</span>
-<span class="stat-source">Source: <a href="https://www.ox.ac.uk/news/2022-11-01-pancreatic-cancer-could-be-diagnosed-three-years-earlier" target="_blank">University of Oxford, Pancreatic Cancer Action, and University of Surrey [4]</a></span>
+<span class="stat-number">1.7%</span>
+<span class="stat-title">Estimated Lifetime Risk</span>
+<span class="stat-source">
+2021–2023 · NCI SEER [2]
+</span>
 </div>
 
 </div>
@@ -297,136 +332,322 @@ The first part of this project asks a simple question:
 
 # Incidence
 
-Incidence describes the number of new pancreatic cancer diagnoses
-occurring within a population during a specific period.
+## How Frequently Does Pancreatic Cancer Occur?
 
-In the United States, the current age-adjusted incidence rate for
-pancreatic cancer is **13.9 new cases per 100,000 people per year**,
-based on cases diagnosed during **2019–2023**. [2]
+**Incidence** describes the occurrence of new cancer cases within a
+population during a specified period.
 
-This rate provides a population-level measure of how frequently
-pancreatic cancer occurs. However, one current rate does not reveal
-whether the disease is becoming more or less common. To investigate
-that question, I will compare pancreatic cancer incidence across
-multiple decades.
+In the United States, the age-adjusted incidence rate of pancreatic
+cancer is **13.9 new cases per 100,000 people per year**, based on
+cases diagnosed during **2019–2023**. [2]
 
-## Questions
+Age adjustment is important because cancer risk varies substantially
+with age. Using an age-adjusted rate makes comparisons across
+populations and time periods more meaningful.
+
+Approximately **1.7% of men and women** are expected to be diagnosed
+with pancreatic cancer at some point during their lifetime, based on
+2021–2023 data. [2]
+
+In 2023, an estimated **113,931 people were living with pancreatic
+cancer in the United States**. [2]
+
+These statistics measure different aspects of the disease:
+
+| Measure | What it tells us |
+|---|---|
+| Incidence | How many new cases occur |
+| Lifetime risk | The probability of developing pancreatic cancer during a person's lifetime |
+| Prevalence | How many people are living with the disease |
+
+Together, these measurements provide a broader picture of the
+population affected by pancreatic cancer.
+
+---
+
+## Incidence Over Time
+
+The current incidence rate tells us how frequently pancreatic cancer
+occurs today, but it does not tell us whether the disease is becoming
+more or less common.
+
+To investigate this, I analyzed pancreatic cancer incidence across
+multiple years using data processed in Python/Jupyter Notebook.
+
+### Questions Investigated
 
 - Has pancreatic cancer incidence changed over time?
-- Does the trend differ by age?
-- Does incidence differ between males and females?
-- Are there differences among racial and ethnic groups?
-- Are there geographic differences?
+- Is the overall trend increasing, decreasing, or relatively stable?
+- Are there noticeable differences between demographic groups?
+- Does age appear to influence the incidence pattern?
+- What does the long-term trend suggest about the future burden of
+  pancreatic cancer?
+
+---
 
 ## Figure 1 — Pancreatic Cancer Incidence Over Time
 
-<img src="/figures/incidence_over_time.png" alt="Pancreatic cancer incidence" width="100%">
+<img src="/figures/incidence_over_time.png"
+     alt="Pancreatic cancer incidence over time"
+     width="100%">
 
-**Source:** National Cancer Institute, SEER. [2]
+**Source:** National Cancer Institute, Surveillance, Epidemiology, and
+End Results Program (SEER). [2]
 
 **Analysis and visualization:** Author using Python/Jupyter Notebook.
 
-## What Does the Trend Show?
+### Interpreting the Trend
 
-[Write this after completing the Jupyter analysis.]
+The incidence analysis is used to determine whether pancreatic cancer
+has remained stable or changed substantially over the period examined.
+
+According to the current SEER trend data, pancreatic cancer incidence
+has **increased in recent years**, with an estimated annual percentage
+change of approximately **0.9% per year from 2014–2023**. [2]
+
+This suggests that pancreatic cancer is not simply a historical
+problem. The population burden continues to require attention.
+
+However, the trend alone cannot establish *why* incidence is
+increasing.
+
+Changes in incidence can potentially reflect a combination of
+population aging, changes in risk factors, improvements in diagnosis,
+and other demographic or biological factors.
+
+Therefore, the incidence analysis establishes an important observation:
+
+> **Pancreatic cancer is not disappearing; the number of newly
+> diagnosed cases continues to be an important public-health concern.**
+
+The next question is whether mortality has changed in the same way.
 
 
 # Mortality
 
-Mortality describes deaths attributed to pancreatic cancer within
-a population.
+## How Many People Die From Pancreatic Cancer?
+
+**Mortality** describes deaths attributed to a disease within a
+population.
 
 The current age-adjusted mortality rate for pancreatic cancer is
 **11.3 deaths per 100,000 people per year**, based on deaths recorded
 during **2020–2024**. [2]
 
-The mortality rate is particularly important in this project because
-pancreatic cancer has a much larger mortality burden than its ranking
-by incidence alone might suggest.
+SEER estimates approximately **52,740 deaths from pancreatic cancer in
+2026**. [2]
 
-## Questions
+Mortality is especially important when studying pancreatic cancer
+because the disease has a relatively low incidence compared with some
+other major cancers, yet remains one of the leading causes of cancer
+death in the United States.
+
+---
+
+## Mortality Over Time
+
+Examining mortality over time allows us to determine whether progress
+in diagnosis and treatment has resulted in a substantial population-
+level reduction in deaths.
+
+### Questions Investigated
 
 - How has pancreatic cancer mortality changed over time?
-- How does pancreatic cancer mortality compare with other cancers?
-- Which populations experience the highest mortality?
+- Is mortality increasing, decreasing, or stable?
 - Does the mortality trend resemble the incidence trend?
+- How does pancreatic cancer compare with other major cancers?
+
+---
 
 ## Figure 2 — Pancreatic Cancer Mortality Over Time
 
-<img src="/figures/mortality_over_time.png" alt="Pancreatic cancer mortality" width="100%">
+<img src="/figures/mortality_over_time.png"
+     alt="Pancreatic cancer mortality over time"
+     width="100%">
 
 **Source:** National Cancer Institute, SEER. [2]
 
 **Analysis and visualization:** Author using Python/Jupyter Notebook.
+
+### Interpreting the Mortality Trend
+
+The mortality analysis provides an important comparison with the
+incidence analysis.
+
+While recent pancreatic cancer incidence has increased, SEER reports
+that the age-adjusted pancreatic cancer death rate was **stable from
+2015–2024**. [2]
+
+This difference is important.
+
+If more people are being diagnosed while mortality does not decline
+substantially, then simply identifying more cases may not be enough to
+solve the problem.
+
+This raises a more specific research question:
+
+> **Why has improved medical care not produced a much larger reduction
+> in pancreatic cancer mortality?**
+
+To investigate this question, pancreatic cancer mortality can also be
+compared with the mortality burden of other major cancers.
+
+
+# Pancreatic Cancer Compared With Other Major Cancers
+
+Raw numbers of deaths can be misleading when comparing different
+cancer types.
+
+A cancer that affects a very large population may cause more total
+deaths simply because more people develop it.
+
+For this reason, this project uses **mortality rates** to make a more
+meaningful population-level comparison.
+
+---
 
 ## Figure 3 — Mortality Compared With Other Major Cancers
 
-<img src="/figures/top_10_mortality_vs_pancreas.png" alt="Cancer mortality comparison" width="100%">
+<img src="/figures/top_10_mortality_vs_pancreas.png"
+     alt="Pancreatic cancer mortality compared with other major cancers"
+     width="100%">
 
 **Source:** National Cancer Institute, SEER. [2]
 
 **Analysis and visualization:** Author using Python/Jupyter Notebook.
+
+### What Does the Comparison Show?
+
+The analysis demonstrates that pancreatic cancer does **not** have the
+highest mortality rate among all major cancers.
+
+For example, the mortality rate for lung and bronchus cancer is
+substantially higher.
+
+However, pancreatic cancer remains important because its mortality
+burden is high despite a substantially lower incidence than some of
+the most common cancers.
+
+This distinction is important.
+
+The central problem is not simply:
+
+> **"Does pancreatic cancer cause the most deaths?"**
+
+Instead, the more useful question is:
+
+> **"Why does a cancer that is diagnosed less frequently still account
+> for such a large proportion of cancer deaths?"**
+
+This question leads directly to the relationship between incidence,
+mortality, stage at diagnosis, and survival.
 
 
 # Incidence vs. Mortality
 
-Incidence and mortality describe different parts of the cancer
-burden. Incidence measures new diagnoses, while mortality measures
-deaths within a population.
+Incidence and mortality describe different aspects of the cancer
+burden.
 
-The current age-adjusted pancreatic cancer incidence rate is
-**13.9 per 100,000 people per year**, while the age-adjusted
-mortality rate is **11.3 per 100,000 people per year**. [2]
+**Incidence** measures new diagnoses, while **mortality** measures
+deaths occurring within a population.
 
-The closeness of these population-level rates demonstrates the
-substantial mortality burden associated with pancreatic cancer.
+The current age-adjusted pancreatic cancer incidence rate is:
 
-However, the ratio between these rates should **not** be interpreted
-as the percentage of diagnosed patients who die. The incidence rate
-and mortality rate are calculated from different reporting periods
-and do not describe the outcomes of the same group of patients.
+**13.9 new cases per 100,000 people per year.** [2]
 
-## Descriptive Comparison
+The current age-adjusted pancreatic cancer mortality rate is:
 
-<div style="text-align: left; margin: 1.5rem 0; font-size: 1.2rem; font-weight: 500;">
-  (11.3 / 13.9) &times; 100 &approx; <strong>81.3%</strong>
-</div>
+**11.3 deaths per 100,000 people per year.** [2]
 
-The reported mortality rate is approximately 81% of the reported
-incidence rate.
+The fact that these two population-level rates are relatively close
+is an important observation.
 
-This is a **descriptive population-level comparison, not a
-case-fatality rate**.
+---
+
+## A Descriptive Comparison
+
+Using the two reported rates:
+
+\[
+\frac{11.3}{13.9} \times 100 \approx 81.3\%
+\]
+
+Therefore, the reported mortality rate is approximately **81.3% of
+the reported incidence rate**.
+
+### Important limitation
+
+This **does not mean that 81.3% of patients diagnosed with pancreatic
+cancer die**.
+
+The calculation compares two population-level rates that are based on
+different reporting periods:
+
+- Incidence: **2019–2023**
+- Mortality: **2020–2024**
+
+The people represented in the mortality statistics are not necessarily
+the same people represented in the incidence statistics.
+
+Therefore, the 81.3% value is used only as a **descriptive comparison
+between population-level rates**.
+
+It should **not** be interpreted as:
+
+- a patient's probability of death,
+- a case-fatality rate,
+- the percentage of diagnosed patients who die, or
+- an individual prognosis.
+
+---
 
 ## Figure 4 — Incidence vs. Mortality
 
-<img src="/figures/incidence_vs_mortality.png" alt="Incidence vs mortality" width="100%">
+<img src="/figures/incidence_vs_mortality.png"
+     alt="Pancreatic cancer incidence compared with mortality"
+     width="100%">
 
 **Source:** National Cancer Institute, SEER. [2]
 
 **Analysis and visualization:** Author using Python/Jupyter Notebook.
 
-## What Does This Suggest?
+---
 
-The relationship between incidence and mortality raises a more
-important research question:
+# What Does This Suggest?
 
-> **Why does pancreatic cancer remain so lethal relative to the
-> number of people diagnosed?**
+The incidence and mortality data reveal an important pattern.
 
-Possible explanations include:
+Pancreatic cancer has:
 
-1. Diagnosis at an advanced stage
-2. Difficulty detecting early disease
-3. Limited opportunities for curative surgery
-4. Aggressive tumor biology
-5. Metastatic disease
-6. Treatment resistance
+- A relatively low population incidence compared with several major
+  cancers.
+- An incidence rate of **13.9 per 100,000**.
+- A mortality rate of **11.3 per 100,000**.
+- Increasing recent incidence.
+- Mortality that has remained relatively stable.
+- A very low overall 5-year relative survival rate.
 
-The remainder of this project investigates these possible
-explanations.
+These observations suggest that pancreatic cancer is not simply a
+problem of how many people develop the disease.
 
+It is also a problem of **what happens after diagnosis**.
 
+One possible explanation is that many patients are diagnosed only
+after the cancer has progressed.
+
+SEER data show substantial differences in survival according to stage
+at diagnosis, making the timing of diagnosis an important area for
+further investigation. [2]
+
+This leads to the central problem that the rest of this project will
+investigate:
+
+> **If pancreatic cancer can be identified earlier, could shifting
+> diagnosis toward earlier stages substantially improve survival?**
+
+The next sections therefore move from **population data** to the
+people affected by the disease, the biology of pancreatic cancer,
+risk factors, detection, staging, treatment, and potential solutions.
 # Who Gets Pancreatic Cancer?
 
 Understanding the population affected by the disease is important
