@@ -354,11 +354,11 @@ cancer in the United States**. [2]
 
 These statistics measure different aspects of the disease:
 
-| Measure | What it tells us |
-| :--- | :--- |
-| **Incidence** | How many new cases occur |
-| **Lifetime risk** | The probability of developing pancreatic cancer during a person’s lifetime |
-| **Prevalence** | How many people are living with the disease |
+| Measure      | What it tells us |
+| :---      | :--- |
+| **Incidence**      | How many new cases occur |
+| **Lifetime risk**      | The probability of developing pancreatic cancer during a person’s lifetime |
+| **Prevalence**      | How many people are living with the disease |
 
 Together, these measurements provide a broader picture of the
 population affected by pancreatic cancer.
@@ -568,7 +568,7 @@ is an important observation.
 
 Using the two reported rates:
 
-<div style="text-align: center; margin: 1.5rem 0; font-size: 1.2rem; font-weight: 500;">
+<div style="text-align: left; margin: 1.5rem 0; font-size: 1.2rem; font-weight: 500;">
   (11.3 / 13.9) &times; 100 &approx; <strong>81.3%</strong>
 </div>
 
