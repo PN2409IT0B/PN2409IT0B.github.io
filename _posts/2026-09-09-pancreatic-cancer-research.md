@@ -388,7 +388,7 @@ and do not describe the outcomes of the same group of patients.
 
 ## Descriptive Comparison
 
-<div style="text-align: center; margin: 1.5rem 0; font-size: 1.2rem; font-weight: 500;">
+<div style="text-align: left; margin: 1.5rem 0; font-size: 1.2rem; font-weight: 500;">
   (11.3 / 13.9) &times; 100 &approx; <strong>81.3%</strong>
 </div>
 
